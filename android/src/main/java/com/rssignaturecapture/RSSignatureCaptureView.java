@@ -102,6 +102,7 @@ public class RSSignatureCaptureView extends View {
 
 		// important for saving signature
 		final Canvas canvas = new Canvas(signatureBitmap);
+		canvas.drawColor(Color.WHITE);
 		this.draw(canvas);
 
 		return signatureBitmap;
